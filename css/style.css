@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Poppins;
+}
+
+.box {
+  width: 100%;
+  height: 100vh;
+  background: #ead5dc;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2% 6%;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #000;
+}
+
+main {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+main h2 {
+  font-size: 3em;
+}
+
+main #decide {
+  margin-top: 5%;
+}
+
+main .btn {
+  border: none;
+  background: transparent;
+  padding: 8px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0 20px 0 rgba(15, 14, 14, 0.2);
+          box-shadow: 0 0 20px 0 rgba(15, 14, 14, 0.2);
+  margin: 10px 0 44px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  margin-bottom: 5%;
+  text-align: center;
+}
+
+@media (max-width: 700px) {
+  nav {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+  }
+  nav h1 {
+    font-size: 15px;
+  }
+  nav a {
+    font-size: 10px;
+  }
+  main {
+    padding: 15px 30px;
+    font-size: 10px;
+    width: 100%;
+  }
+  footer {
+    margin-top: 50%;
+    font-size: 12px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
